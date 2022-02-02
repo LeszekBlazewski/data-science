@@ -1,0 +1,500 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="10e931a2-ff19-42d9-b1d5-0e09b4dfca2f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>OLAP</ID>
+  <Name>OLAP</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="28" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4077" scrolltop="-461" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="97" x="28654" y="21405" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="courses" left="15158" top="7833" logicalid="14" controlid="1" masterid="0" hint1="0" hint2="0" width="5363" height="3714" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000f3140000820e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_courses" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="grades" left="7532" top="7833" logicalid="15" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00004d0c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_grades" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="semesters" left="0" top="8714" logicalid="16" controlid="3" masterid="0" hint1="0" hint2="0" width="3016" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000c80b00004d0c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_semesters" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="students" left="5350" top="0" logicalid="17" controlid="4" masterid="0" hint1="0" hint2="0" width="5787" height="4702" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00009b1600005e120000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_students" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="teacher_titles" left="12626" top="16474" logicalid="18" controlid="5" masterid="0" hint1="0" hint2="0" width="6316" height="4207" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000ac1800006f100000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_teacher_titles" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="teachers" left="6240" top="15347" logicalid="19" controlid="6" masterid="0" hint1="0" hint2="0" width="4482" height="5125" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00008211000005140000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_teachers" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="5644" top="4203" logicalid="20" controlid="7" masterid="0" hint1="0" hint2="0" width="2588" height="3930" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[grades-students]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="3" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="6043" y="4702" />
+                    <point x="6043" y="6108" />
+                    <point x="7932" y="6108" />
+                    <point x="7932" y="7833" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="10232" top="7641" logicalid="21" controlid="8" masterid="0" hint1="0" hint2="0" width="5226" height="966" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[grades-courses]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="18" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="15158" y="8040" />
+                    <point x="12881" y="8040" />
+                    <point x="12881" y="8307" />
+                    <point x="10532" y="8307" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="10422" top="15959" logicalid="22" controlid="9" masterid="0" hint1="0" hint2="0" width="2504" height="1368" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[teachers-teacher_titles]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="6" sourceattachpoint="22" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="12626" y="16927" />
+                    <point x="11957" y="16927" />
+                    <point x="11957" y="16259" />
+                    <point x="10722" y="16259" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="6432" top="10682" logicalid="23" controlid="10" masterid="0" hint1="0" hint2="0" width="4000" height="5165" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[grades-teachers]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="2" sourceattachpoint="0" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="6831" y="15347" />
+                    <point x="6831" y="12812" />
+                    <point x="10132" y="12812" />
+                    <point x="10132" y="10982" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="2716" top="8789" logicalid="24" controlid="11" masterid="0" hint1="0" hint2="0" width="5116" height="1468" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[grades-semesters]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="11" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="3016" y="9188" />
+                    <point x="5962" y="9188" />
+                    <point x="5962" y="9957" />
+                    <point x="7532" y="9957" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="workloads" left="15242" top="12198" logicalid="25" controlid="12" masterid="0" hint1="0" hint2="0" width="5681" height="3210" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000311600008a0c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_workloads" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="10232" top="10207" logicalid="26" controlid="13" masterid="0" hint1="0" hint2="0" width="5310" height="2896" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[grades-workloads]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="2" sourceattachpoint="18" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="15242" y="12703" />
+                    <point x="12887" y="12703" />
+                    <point x="12887" y="10507" />
+                    <point x="10532" y="10507" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-4077</DiagramViewPortLeft>
+            <DiagramViewPortTop>-461</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>97</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>OLAP</DataSourceID>
+  <Schema>
+    <xs:schema id="OLAP" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="OLAP" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="1ea5c157-e0ad-43cb-8a6e-ebbab6d3b1c4">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_courses" msprop:design-time-name="a2087ddc-4228-4837-8a11-76a341c180b3" msprop:FriendlyName="courses" msprop:DbSchemaName="dbo" msprop:DbTableName="courses" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="course_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="d5df83aa-054b-45dd-a4b5-147a08fde270" msprop:DbColumnName="course_id" msprop:FriendlyName="course_id" type="xs:long" />
+                  <xs:element name="course" msprop:design-time-name="171cb793-a8ae-4cc0-8b87-8034d98f5a6a" msprop:DbColumnName="course" msprop:FriendlyName="course" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="course_group" msprop:design-time-name="43c3e00b-a199-4cab-b61f-770eb2034b6c" msprop:DbColumnName="course_group" msprop:FriendlyName="course_group" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="took_x0020_exam" msprop:design-time-name="1a198a55-06f1-4f24-9c31-2ba849b2d384" msprop:DbColumnName="took exam" msprop:FriendlyName="took exam" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="type" msprop:design-time-name="c3bb58cb-6806-4c31-b765-dff524cf252e" msprop:DbColumnName="type" msprop:FriendlyName="type" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="course_group_not_null_named" msdata:ReadOnly="true" msprop:design-time-name="b5999b05-8ef0-4c73-8863-204e89c7b88f" msprop:IsLogical="True" msprop:FriendlyName="course_group_not_null_named" msprop:Description="" msprop:DbColumnName="course_group_not_null_named" msprop:ComputedColumnExpression="CASE&#xD;&#xA; WHEN course_group IS NULL THEN 'unknown'&#xD;&#xA; WHEN course_group = 1 THEN 'faculty courses'&#xD;&#xA; WHEN course_group = 2 THEN 'sports'&#xD;&#xA; WHEN course_group = 3 THEN 'languages'&#xD;&#xA; WHEN course_group = 4 THEN 'humanites'&#xD;&#xA; ELSE&#xD;&#xA; CAST(course_group AS nvarchar)&#xD;&#xA;END" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_grades" msprop:design-time-name="431c9cc6-7549-4a94-9a7b-d07bddcbd313" msprop:FriendlyName="grades" msprop:DbSchemaName="dbo" msprop:DbTableName="grades" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="grade" msprop:design-time-name="50027a19-ecdc-4e9b-a0e8-9045f05fbdad" msprop:DbColumnName="grade" msprop:FriendlyName="grade" type="xs:float" minOccurs="0" />
+                  <xs:element name="teacher_id" msprop:design-time-name="866eb03f-88b3-4cc7-b250-1450edf12f81" msprop:DbColumnName="teacher_id" msprop:FriendlyName="teacher_id" type="xs:long" minOccurs="0" />
+                  <xs:element name="student_id" msprop:design-time-name="6102d925-a3b7-4839-bb5b-61e741504205" msprop:DbColumnName="student_id" msprop:FriendlyName="student_id" type="xs:long" minOccurs="0" />
+                  <xs:element name="course_id" msprop:design-time-name="419a6652-ff60-465c-bb02-fda4ded7b66a" msprop:DbColumnName="course_id" msprop:FriendlyName="course_id" type="xs:long" minOccurs="0" />
+                  <xs:element name="semester_id" msprop:design-time-name="5e6a9deb-4c41-4470-b634-89c8159e147e" msprop:DbColumnName="semester_id" msprop:FriendlyName="semester_id" type="xs:long" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_semesters" msprop:design-time-name="dc92c023-08d7-405d-be83-b728f9ef20fa" msprop:FriendlyName="semesters" msprop:DbSchemaName="dbo" msprop:DbTableName="semesters" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="semester_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="ef828840-1766-4d26-bdf6-286cf32f3e78" msprop:DbColumnName="semester_id" msprop:FriendlyName="semester_id" type="xs:long" />
+                  <xs:element name="semester" msprop:design-time-name="ea6f25c9-fd8b-4b59-b08e-2dd8de611bcb" msprop:DbColumnName="semester" msprop:FriendlyName="semester" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="type" msprop:design-time-name="72646ae2-6dd4-4b08-a399-3e3ae23bf5e9" msprop:DbColumnName="type" msprop:FriendlyName="type" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="year" msprop:design-time-name="ba1e882b-4263-4d48-bd21-c3a877859b7a" msprop:DbColumnName="year" msprop:FriendlyName="year" type="xs:short" minOccurs="0" />
+                  <xs:element name="semester_year" msprop:design-time-name="8be07f58-2b1d-4858-ba11-6f054e360fe1" msprop:DbColumnName="semester_year" msprop:FriendlyName="semester_year" type="xs:unsignedByte" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_students" msprop:design-time-name="870d7659-4345-4ca3-a1fc-c8390859e7e8" msprop:FriendlyName="students" msprop:DbSchemaName="dbo" msprop:DbTableName="students" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="student_id" msprop:design-time-name="a035741b-5e7f-4279-ac27-e00210e1d07f" msprop:DbColumnName="student_id" msprop:FriendlyName="student_id" type="xs:long" />
+                  <xs:element name="spec" msprop:design-time-name="f52dab65-c9a2-45af-baf6-1875dc4b11a8" msprop:DbColumnName="spec" msprop:FriendlyName="spec" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sub_spec" msprop:design-time-name="80ba142e-6745-4020-b8f7-6523e685afe5" msprop:DbColumnName="sub_spec" msprop:FriendlyName="sub_spec" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sub_spec2" msprop:design-time-name="9be7f282-cb45-403a-ae9b-eefd28429486" msprop:DbColumnName="sub_spec2" msprop:FriendlyName="sub_spec2" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="gender" msprop:design-time-name="dc9c6334-ef4b-457a-ab54-5c0fcb3c385e" msprop:DbColumnName="gender" msprop:FriendlyName="gender" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sub_spec2_not_null" msdata:ReadOnly="true" msprop:design-time-name="1043cf8f-a340-43d0-b52a-493d0453a33a" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="sub_spec2_not_null" msprop:ComputedColumnExpression="CASE&#xD;&#xA; WHEN sub_spec2 IS NULL THEN&#xD;&#xA; 'unknown'&#xD;&#xA; ELSE&#xD;&#xA; CAST(sub_spec2 as nvarchar)&#xD;&#xA;END" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_teacher_titles" msprop:design-time-name="8d3d78a9-bc99-4b0f-adcb-a6a811496318" msprop:FriendlyName="teacher_titles" msprop:DbSchemaName="dbo" msprop:DbTableName="teacher_titles" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="title_id" msprop:design-time-name="035ed1ea-2837-45f0-9669-fb96113f9c20" msprop:DbColumnName="title_id" msprop:FriendlyName="title_id" type="xs:unsignedByte" />
+                  <xs:element name="title_long" msprop:design-time-name="0cae9c08-d639-47ae-acbf-3cbdebf6dc4b" msprop:DbColumnName="title_long" msprop:FriendlyName="title_long" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="title" msprop:design-time-name="893fe49d-eb0e-4603-9dc2-e56549648aa5" msprop:DbColumnName="title" msprop:FriendlyName="title" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="title_long_not_null" msdata:ReadOnly="true" msprop:design-time-name="977d2441-65d4-4766-b05d-ec001f48a813" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="title_long_not_null" msprop:ComputedColumnExpression="CASE&#xD;&#xA; WHEN title_long IS NULL THEN&#xD;&#xA; 'unknown'&#xD;&#xA; ELSE&#xD;&#xA; CAST(title_long as nvarchar)&#xD;&#xA;END" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="title_not_null" msdata:ReadOnly="true" msprop:design-time-name="4e7cd57b-330d-42d3-96fd-0181146cb37b" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="title_not_null" msprop:ComputedColumnExpression="CASE&#xD;&#xA; WHEN title IS NULL THEN&#xD;&#xA; 'unknown'&#xD;&#xA; ELSE&#xD;&#xA; CAST(title as nvarchar)&#xD;&#xA;END" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_teachers" msprop:design-time-name="7a3311ba-b196-4018-8b07-fd46027f5130" msprop:FriendlyName="teachers" msprop:DbSchemaName="dbo" msprop:DbTableName="teachers" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="teacher_id" msprop:design-time-name="9916c08b-d899-42cd-8d1a-ba6b9e3464c1" msprop:DbColumnName="teacher_id" msprop:FriendlyName="teacher_id" type="xs:long" />
+                  <xs:element name="gender" msprop:design-time-name="e95b2528-ab91-4965-b850-b0296e2b0874" msprop:DbColumnName="gender" msprop:FriendlyName="gender" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="faculty" msprop:design-time-name="11fd92f2-0884-40d5-a84c-f36ce4601cb0" msprop:DbColumnName="faculty" msprop:FriendlyName="faculty" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="institute" msprop:design-time-name="c6fef942-a45a-48f1-9460-4a3052bdd345" msprop:DbColumnName="institute" msprop:FriendlyName="institute" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="title_id" msprop:design-time-name="1756d7d9-5042-4525-8bfb-1466d6c5cb06" msprop:DbColumnName="title_id" msprop:FriendlyName="title_id" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="gender_not_null" msdata:ReadOnly="true" msprop:design-time-name="140a6a16-21f5-4ccf-a464-f204014b3898" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="gender_not_null" msprop:ComputedColumnExpression="CASE&#xD;&#xA; WHEN gender IS NULL THEN&#xD;&#xA; 'unknown'&#xD;&#xA; ELSE&#xD;&#xA; CAST(gender as nvarchar)&#xD;&#xA;END" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="faculty_not_null" msdata:ReadOnly="true" msprop:design-time-name="e66ac564-eba2-409b-85c7-0946981de9c9" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="faculty_not_null" msprop:ComputedColumnExpression="CASE&#xD;&#xA; WHEN faculty IS NULL THEN&#xD;&#xA; 'unknown'&#xD;&#xA; ELSE&#xD;&#xA; CAST(faculty as nvarchar)&#xD;&#xA;END" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="institute_not_null" msdata:ReadOnly="true" msprop:design-time-name="8f88bd77-ee45-4ea6-9677-61649d837f7e" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="institute_not_null" msprop:ComputedColumnExpression="CASE&#xD;&#xA; WHEN institute IS NULL THEN&#xD;&#xA; 'unknown'&#xD;&#xA; ELSE&#xD;&#xA; CAST(institute as nvarchar)&#xD;&#xA;END" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_workloads" msprop:design-time-name="928810a8-a476-4ddb-9995-8762e459245c" msprop:FriendlyName="workloads" msprop:DbSchemaName="dbo" msprop:DbTableName="workloads" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="teacher_id" msprop:design-time-name="d5aac846-dec8-43ae-b4f5-f2a12615f5e3" msprop:DbColumnName="teacher_id" msprop:FriendlyName="teacher_id" type="xs:long" />
+                  <xs:element name="semester_id" msprop:design-time-name="c1121dc3-b6f5-466d-90a4-b6f5bc47a70b" msprop:DbColumnName="semester_id" msprop:FriendlyName="semester_id" type="xs:long" />
+                  <xs:element name="workload" msprop:design-time-name="46b84bbb-05af-43dd-9feb-199f63bf906e" msprop:DbColumnName="workload" msprop:FriendlyName="workload" type="xs:short" minOccurs="0" />
+                  <xs:element name="workload_level" msdata:ReadOnly="true" msprop:design-time-name="058a401d-6540-41f8-b786-88e55e5f1126" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="workload_level" msprop:ComputedColumnExpression="CASE&#xD;&#xA; WHEN workload &lt; 30 THEN 'low'&#xD;&#xA; WHEN  workload &gt;= 30 and workload &lt;60 THEN 'neutral'&#xD;&#xA; WHEN  workload &gt;= 60 and workload &lt; 100 THEN 'medium'&#xD;&#xA; WHEN  workload &gt;= 100 THEN 'high'&#xD;&#xA;END" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="7" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_courses" />
+          <xs:field xpath="course_id" />
+        </xs:unique>
+        <xs:unique name="dbo_semesters_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_semesters" />
+          <xs:field xpath="semester_id" />
+        </xs:unique>
+        <xs:unique name="dbo_students_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_students" />
+          <xs:field xpath="student_id" />
+        </xs:unique>
+        <xs:unique name="dbo_teacher_titles_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_teacher_titles" />
+          <xs:field xpath="title_id" />
+        </xs:unique>
+        <xs:unique name="dbo_teachers_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_teachers" />
+          <xs:field xpath="teacher_id" />
+        </xs:unique>
+        <xs:unique name="dbo_workloads_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_workloads" />
+          <xs:field xpath="teacher_id" />
+          <xs:field xpath="semester_id" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="grades-students" msdata:parent="dbo_students" msdata:child="dbo_grades" msdata:parentkey="student_id" msdata:childkey="student_id" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="grades-courses" msdata:parent="dbo_courses" msdata:child="dbo_grades" msdata:parentkey="course_id" msdata:childkey="course_id" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="teachers-teacher_titles" msdata:parent="dbo_teacher_titles" msdata:child="dbo_teachers" msdata:parentkey="title_id" msdata:childkey="title_id" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="grades-teachers" msdata:parent="dbo_teachers" msdata:child="dbo_grades" msdata:parentkey="teacher_id" msdata:childkey="teacher_id" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="grades-semesters" msdata:parent="dbo_semesters" msdata:child="dbo_grades" msdata:parentkey="semester_id" msdata:childkey="semester_id" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="grades-workloads" msdata:parent="dbo_workloads" msdata:child="dbo_grades" msdata:parentkey="teacher_id semester_id" msdata:childkey="teacher_id semester_id" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <OLAP xmlns="" />
+  </Schema>
+</DataSourceView>
