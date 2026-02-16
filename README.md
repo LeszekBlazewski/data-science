@@ -1,8 +1,6 @@
 # data-science
 All my work related to data science, machine learning, deep learning and similar.
 
-The datasets/models and other large files can be downloaded from my [google-drive](https://drive.google.com/drive/folders/1gS6SH6Vi3jIPEofzTzb6I4AGo33rGwkp?usp=sharing).
-
 You can find a summary of each of the projects in their folders.
 
 1. Spam detection models evaluation
